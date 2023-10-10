@@ -52,14 +52,13 @@ def scientific_calculator():
             print("Invalid input. Please enter a valid expression.")
         except Exception as e:
             print("-" * 76)
-            print("An error occurred:", str(e))
+            print("An error occurred:", str(e)) #
 
 if __name__ == "__main__":
     scientific_calculator()
 
 #Originial 
 # import sympy as sp
-
 
 # def scientific_calculator():
 #     print(" ______________________________________________________________________")
